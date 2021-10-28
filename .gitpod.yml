@@ -10,7 +10,7 @@ tasks:
     cat sample_settings.py >> mysite/settings/base.py &&
     cat sample_urls.py >> mysite/urls.py &&
     python manage.py migrate &&
-    echo "from django.contrib.auth import get_user_model; get_user_model().objects.create_superuser('admin', '', 'changeme')" | python3 manage.py shell
+    python manage.py sample_data
   command: >
     python manage.py runserver 0.0.0.0:8080
 github:
