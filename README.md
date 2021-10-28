@@ -1,8 +1,6 @@
 # Wagtail Live Gitpod
 
-Launch a ready-to-code Wagtail development environment with a single click.
-
-[Wagtail Live](https://github.com/wagtail/wagtail-live/) is installed and configured.
+Launch a ready-to-code [Wagtail Live](https://github.com/wagtail/wagtail-live/) development environment with a single click.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/allcaps/wagtail-live-gitpod)
 
@@ -16,10 +14,6 @@ Steps:
 
 When you edit and publish, `/live-blog/` updates automatically.
 
-TODO:
-
-- Add `webapp` to add messages quickly.
-
-Note: The long polling publisher is used. It is quick to set up. Wagtail Live provides other publishers that perform better.
-
 ![Wagtail Gitpod screenshot](https://user-images.githubusercontent.com/1969342/82453552-f4c9aa00-9ab0-11ea-90ce-e37b5f680f8d.png)
+
+TODO: Add `webapp` to add messages quickly.
