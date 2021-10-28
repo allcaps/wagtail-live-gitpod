@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% include "wagtail_live/live_posts.html" %}
+  {% include "wagtail_live/polling/long_polling.html" %}
+{% endblock %}
